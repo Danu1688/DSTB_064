@@ -1,0 +1,25 @@
+proxies:
+- name: danugayeng06a
+  type: trojan
+  server: do-gayeng.potatonc.my.id
+  port: 443
+  password: c2b5c9e5-5c13-4a5f-808c-6ba64e1deadc
+  udp: true
+  sni: chat.sociomile.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+- name: danuterong06b
+  type: trojan
+  server: chat.sociomile.com
+  port: 443
+  password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
+  udp: true
+  sni: b19f.vpsxc.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /terong
+    headers:
+      Host: b19f.vpsxc.my.id
