@@ -1,7 +1,7 @@
 proxies:
 - name: SvrAtha51_Ilped_IP1
   type: trojan
-  server: 104.22.24.131
+  server: 104.18.25.139
   port: 443
   password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
   udp: true
@@ -12,22 +12,9 @@ proxies:
     path: /trojan
     headers:
       Host: id3.myserver-prem.xyz
-- name: SvrDo51_Ilped_IP1
-  type: trojan
-  server: 104.17.2.81
-  port: 443
-  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
 - name: SvrNusa51_Ilped_IP1
   type: trojan
-  server: 104.22.24.131
+  server: 104.18.24.139
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
