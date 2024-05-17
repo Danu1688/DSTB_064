@@ -2261,6 +2261,58 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
+- name: SvrDO_PROTEK_H4
+  type: trojan
+  server: shopee.pl
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDO_PROTEK_H5
+  type: trojan
+  server: secreporter.susercontent.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDO_PROTEK_H6
+  type: trojan
+  server: apm.seabank.co.id
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDO_PROTEK_H7
+  type: trojan
+  server: apm.seabank.co.id
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
 - name: SvrDO_PROTEK_IP1
   type: trojan
   server: 104.16.156.36
@@ -2394,6 +2446,19 @@ proxies:
 - name: SvrDO_PROTEK_IP11
   type: trojan
   server: 104.18.49.163
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDO_PROTEK_IP12
+  type: trojan
+  server: 104.18.62.203
   port: 443
   password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
   udp: true
